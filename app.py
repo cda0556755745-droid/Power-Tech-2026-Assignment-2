@@ -4,8 +4,8 @@ Starter file. Do not rename this file and do not change its structure
 unless the assignment sheet tells you to.
 """
 
-GREETING = &quot;Shalom from Power Tech&quot;
-
+GREETING = "Shalom from Power Tech"
+VERSION = "1.0"
 
 def greet(name):
     """Return a greeting for the given name."""
@@ -13,8 +13,8 @@ def greet(name):
 
 
 def farewell(name):
-&quot;&quot;&quot;Return a farewell message for the given name.&quot;&quot;&quot;
-return f&quot;Goodbye, {name}!&quot;
+"""Return a farewell message for the given name."""
+return f"Goodbye, {name}!"
 
 
 def app_info():
