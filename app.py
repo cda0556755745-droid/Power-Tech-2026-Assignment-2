@@ -4,8 +4,7 @@ Starter file. Do not rename this file and do not change its structure
 unless the assignment sheet tells you to.
 """
 
-GREETING = "shalom"
-VERSION = "0.1"
+GREETING = &quot;Shalom from Power Tech&quot;
 
 
 def greet(name):
