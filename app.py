@@ -13,6 +13,11 @@ def greet(name):
     return f"{GREETING}, {name}!"
 
 
+def farewell(name):
+&quot;&quot;&quot;Return a farewell message for the given name.&quot;&quot;&quot;
+return f&quot;Goodbye, {name}!&quot;
+
+
 def app_info():
     """Return basic information about the app."""
     return {"app": "power-tech", "version": VERSION}
